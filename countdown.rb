@@ -5,6 +5,7 @@ def countdown(x)
   while x < 10
     puts "#{x} seconds"
     x =+ 1
+    break
   end
 end
 
